@@ -19,11 +19,11 @@ describe('Game', () => {
     game = new Game(p1, p2)
   })
 
-  describe('Game', () => {
-    it('Initializes with two players', async () => {
-      expect(game.p1).toBe('Salem')
-      expect(game.p2).toBe('Nate')
-    })
+#  describe('Game', () => {
+#    it('Initializes with two players', async () => {
+#      expect(game.p1).toBe('Salem')
+#      expect(game.p2).toBe('Nate')
+#    })
 
     it('Initializes with an empty board', async () => {
       for (let r = 0; r < game.board.length; r++) {
